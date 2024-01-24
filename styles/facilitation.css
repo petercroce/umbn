@@ -1,0 +1,91 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+}
+.umbn-section.facilitation-section {
+  max-width: 100%;
+}
+header .umbn-section {
+  padding-left: 10px;
+}
+.border-top {
+  border-top: 1px solid white;
+  padding-bottom: 0;
+  margin-top: 100px;
+}
+
+header {
+  background-image: url(/assets/laughing.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+@media (max-width: 992px) {
+  header {
+    background-position: 0% 10% !important;
+    padding-bottom: 0 !important;
+    min-height: 300px !important;
+  }
+}
+@media (max-width:480px) {
+  header {
+    background-position: 0% 5%;
+    padding-bottom: 0;
+  }
+}
+
+.image-section {
+  display: flex;
+  margin: 100px 0;
+  /* padding: 60px 0;
+  border-bottom: 1px solid white; */
+}
+.image-section h2 {
+  margin-top: 0;
+}
+.image-section_text {
+  width: 50%;
+}
+.image-section_text:nth-of-type(1) {
+  padding-right: 30px;
+}
+.image-section_text:nth-of-type(2) {
+  padding-left: 30px;
+}
+.image-section_image {
+  width: 50%;
+}
+.image-section_image img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .image-section {
+    flex-direction: column;
+  }
+  .image-section h2 {
+    margin-top: 1em;
+  }
+  .image-section > div {
+    width: 100%;
+  }
+  .image-section_text:nth-of-type(1) {
+    padding-right: 0;
+  }
+  .image-section_text:nth-of-type(2) {
+    padding-left: 0;
+  }
+}
+/* @media (max-width: 480px): {
+  .image-section_text:nth-of-type(2) {
+    padding: 0;
+  }
+} */
