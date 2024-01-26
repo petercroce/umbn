@@ -13,9 +13,6 @@ Light Accent #bcbcbc
   --secondary50: rgba(0, 71, 135, 50%);
   --secondary70: rgba(0, 71, 135, 70%);
 
-
-
-
   --light-neutral: rgba(238, 238, 238, 100%);
   --light-neutral70: rgba(238, 238, 238, 70%);
   --light-neutral50: rgba(238, 238, 238, 50%);
@@ -118,12 +115,9 @@ nav button, nav a {
   font-weight: 700;
   padding: 20px;
   font-family: 'Inter', sans-serif;
-
-  /* font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
 }
 #logo #UMBN {
   font-size: 30px;
-
 }
 #logo .collaborative {
   font-size: 14px;
@@ -150,11 +144,6 @@ p a:active, p a:hover {
   background-size: 100% 100%;
 }
 
-
-
-
-
-
 h1 {
   color: var(--font-color);
   font-size: 4em;
@@ -178,7 +167,6 @@ h3 {
   display: block;
   font-weight: 500;
 }
-
 
 /* Forms */
 form {
@@ -207,8 +195,8 @@ form {
 .inputGroup textarea {
   border: 1px solid var(--form-border);
 }
-input:focus, input:active,
-textarea:focus, textarea:active {
+input:focus, input:active, input:autofill,
+textarea:focus, textarea:active, input:autofill {
   background-image: linear-gradient(180deg,transparent 93%,var(--form-underline) 0);
   /* background-size: 100% 100%; */
   border: 1px solid var(--form-border-hover);
@@ -246,7 +234,6 @@ form button:active, form button:focus {
   margin-bottom:25px;
 }
 label {
-
   font-size:1.25rem;
   position:absolute;
   pointer-events:none;
@@ -311,23 +298,4 @@ footer .instagram-icon svg {
   padding: 10px;
   padding-bottom: 5px;
   height: 20px;
-}
-
-/* Resets and browser-specific */
-textarea, select, input, button {
-  outline: none;
-}
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  border: none;
-  -webkit-text-fill-color: white;
-  -webkit-box-shadow: 0 0 0px 1000px #004787 inset;
-  transition: background-color 5000s ease-in-out 0s;
 }
