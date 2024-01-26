@@ -23,7 +23,7 @@ Light Accent #bcbcbc
   --dark-neutral50: rgba(61,61,61, 50%);
   --dark-neutral20: rgba(61,61,61, 20%);
 
-  --background: linear-gradient(75deg, var(--secondary) 40%, var(--primary) 100%);
+  --background: radial-gradient(circle at top right, var(--primary) 0%, var(--secondary) 40%);
   --font-color: var(--light-neutral);
   --form-underline: var(--light-neutral);
   --form-border: var(--light-neutral50);
@@ -32,9 +32,14 @@ Light Accent #bcbcbc
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: var(--primary);
+  background: var(--secondary);
   background: var(--background);
   min-height: 100vh;
+}
+@media (max-width: 992px){
+  html {
+    background: var(--secondary);
+  }
 }
 
 body {
