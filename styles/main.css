@@ -140,9 +140,9 @@ p a, p a:visited {
 }
 
 p a, p a:active, p a:hover, p a:visited {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(65%, transparent), color-stop(0, var(--primary)));
-  background-image: -webkit-linear-gradient(top, transparent 65%, var(--primary)) 0);
-  background-image: linear-gradient(180deg, transparent 65%, var(--primary) 0);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(75%, transparent), color-stop(0, var(--primary)));
+  background-image: -webkit-linear-gradient(top, transparent 75%, var(--primary)) 0);
+  background-image: linear-gradient(180deg, transparent 75%, var(--primary) 0);
 }
 
 p a:active, p a:hover {
