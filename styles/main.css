@@ -82,10 +82,9 @@ body {
   text-align: center;
 }
 .welcome-links a {
-  margin-right: 10px;
+  margin-right: 20px;
   font-weight: 500;
-  background-color: var(--light-neutral20);
-  padding: 5px 10px;
+  padding: 5px 5px;
   
 }
 .welcome-links {
@@ -131,6 +130,7 @@ nav button, nav a {
 }
 #logo .collaborative {
   font-size: 14px;
+  margin-left: 3px;
 }
 
 p a, p a:visited {
@@ -145,9 +145,9 @@ p a, p a:visited {
 }
 
 p a, p a:active, p a:hover, p a:visited {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(75%, transparent), color-stop(0, var(--primary)));
-  background-image: -webkit-linear-gradient(top, transparent 75%, var(--primary)) 0);
-  background-image: linear-gradient(180deg, transparent 75%, var(--primary) 0);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(69%, transparent), color-stop(0, var(--primary)));
+  background-image: -webkit-linear-gradient(top, transparent 69%, var(--primary)) 0);
+  background-image: linear-gradient(180deg, transparent 69%, var(--primary) 0);
 }
 
 p a:active, p a:hover {
